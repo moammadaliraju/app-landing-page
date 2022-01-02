@@ -1,0 +1,1205 @@
+/* google fonts */
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+</style>
+
+
+/* font-family: 'Dosis', sans-serif; */
+
+/* global css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    width: 90%;
+}
+
+/* header */
+
+#header{
+
+width: 100%;
+
+float: left;
+
+padding: 10px 0px;
+
+background: url(../img/back.png) no-repeat;
+
+background-size: cover;
+
+border-bottom: 1px solid white;
+}
+.logo-part{
+
+width: 20%;
+
+float: left;
+
+margin: 0px 0px 0px 0px;
+}
+.logo-part img{
+    padding: 6px 100px;
+}
+.menu-part{
+
+width: 50%;
+
+float: left;
+
+margin: 0px 0px 0px -1px;
+}
+.menu-part nav{
+
+}
+.menu-part nav ul{
+
+padding: 0px 150px;
+}
+.menu-part nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 10px;
+}
+.menu-part nav ul li a{
+
+color: white;
+
+text-decoration: none;
+
+font-size: 20px;
+}
+.button-part{
+
+width: 30%;
+
+float: left;
+
+margin: 0px 0px 0px 0px;
+}
+.button-part a{
+    padding-right: 85px;
+}
+.button-part a button{
+
+margin: 10px 40px;
+
+padding: 8px 20px;
+
+border: 0px solid;
+
+border-radius: 3px;
+
+background: aqua;
+}
+.button-part img{
+margin: 0px 0px -6px -115px;
+}
+
+/* main */
+
+#main{
+
+width: 100%;
+
+float: left;
+
+background: url(../img/back.png) no-repeat;
+
+background-size: cover;
+}
+.hero{
+
+width: 100%;
+
+float: left;
+
+padding: 100px 0px;
+
+margin-bottom: -200px;
+}
+.hero-writting-part{
+
+width: 60%;
+
+float: left;
+
+margin: 0px 0px 0px 0px;
+
+padding: 0px 0px;
+}
+.hero-writting-part h1{
+
+width: 100%;
+
+float: left;
+
+font-size: 30px;
+
+padding: 0px 200px;
+
+color: white;
+}
+.hero-writting-part p{
+
+padding: 0px 200px;
+
+color: white;
+
+line-height: 25px;
+}
+.hero-btn-part{
+
+padding: 20px 200px;
+}
+.hero-btn-part a{
+
+padding: 0px 5px 0px 0px;
+}
+.hero-btn-part a button{
+
+padding: 6px 6px;
+
+background: aqua;
+
+color: black;
+
+border: 0px solid;
+
+border-radius: 5px;
+}
+.hero-btn-part1{
+
+width: 100%;
+
+float: left;
+
+text-align: center;
+
+margin: -47px 0px 0px 65px;
+}
+.hero-btn-part1 a{
+
+}
+.hero-btn-part1 a button{
+    
+padding: 6px 15px;
+    
+border: 1px solid aqua;
+    
+border-radius: 6px;
+    
+background: #1e456e08;
+    
+color: white;
+    
+box-shadow: 0px 0px 6px cyan;
+}
+.hero-img-part{
+
+width: 40%;
+
+float: left;
+
+position: relative;
+
+top: 0px;
+}
+.hero-img-part img{
+
+}
+
+/* details */
+
+#details{
+
+width: 100%;
+
+float: left;
+}
+.details-write-part{
+
+width: 100%;
+
+float: left;
+
+text-align: center;
+
+margin-top: 170px;
+
+margin-bottom: 40px;
+}
+.details-write-part h2{
+
+}
+.under{
+
+width: 100%;
+
+float: left;
+
+text-align: center;
+}
+.under button{
+    
+padding: 3px 60px;
+    
+background: aqua;
+    
+border: 0px solid;
+    
+border-radius: 50px;
+}
+.details-section-part{
+
+width: 100%;
+
+float: left;
+
+margin: 60px -150px 50px 60px;
+}
+.section{
+
+width: 20%;
+
+float: left;
+
+text-align: center;
+
+padding: 30px 0px;
+
+box-shadow: 0px 0px 1px black;
+
+margin: 0px 40px 0px 0px;
+}
+.section img{
+
+    width: 35px;
+
+    height: 50px;
+}
+.section h2{
+
+    font-size: 20px;
+
+    font-size: 16px;
+}
+.section p{
+
+font-size: 10px;
+
+padding: 0px 30px;
+}
+
+/* cite */
+
+#cite{
+
+width: 100%;
+
+float: left;
+
+background: whitesmoke;
+}
+.cite-img-part{
+
+width: 50%;
+
+float: left;
+
+margin: 0px 65px 0px -65px;
+}
+.cite-img-part img{
+
+    width: 600px;
+
+    height: 350px;
+}
+.cite-write-part{
+
+width: 50%;
+
+float: left;
+
+margin: 100px 0px;
+}
+.cite-write-part h3{
+
+font-style: normal;
+
+margin: 0px 0px 0px 50px;
+
+line-height: 20px;
+
+font-size: 21px;
+}
+.cite-write-part p{
+
+    font-style: normal;
+
+    margin: 25px 200px 0px 50px;
+
+    line-height: 25px;
+}
+
+/* em */
+
+#em{
+
+width: 100%;
+
+float: left;
+}
+.em-write-part{
+
+width: 50%;
+
+float: left;
+
+text-align: end;
+
+margin: 75px 0px 0px 0px;
+}
+.em-write-part h4{
+
+    font-style: normal;
+
+    font-size: 20px;
+
+    margin: 0px 70px 40px 0px;
+}
+.em-write-part p{
+
+    margin: 0px 70px 40px 126px;
+
+    font-style: normal;
+
+    font-size: 13px;
+
+    line-height: 20px;
+}
+.em-write-part a{
+
+    margin: 0px 70px 0px 0px;
+}
+.em-write-part a button{
+
+padding: 8px 40px;
+
+background: aqua;
+
+border: 0px solid;
+
+border-radius: 4px;
+}
+.em-img-part{
+
+width: 50%;
+
+float: left;
+
+margin: 60px 0px 20px 0px;
+}
+.em-img-part img{
+
+width: 420px;
+
+height: 270px;
+
+margin: 0px 0px 0px 40px;
+}
+#figure{
+
+width: 100%;
+
+float: left;
+
+margin: 40px 0px -70px 0px;
+}
+.figure-img-part{
+
+width: 50%;
+
+float: left;
+
+text-align: end;
+
+margin: 0px 0px 0px -50px;
+
+position: relative;
+}
+.figure-img-part img{
+
+}
+.figure-section-part{
+
+width: 50%;
+
+float: left;
+
+margin: 0px 0px 0px 50px;
+}
+.figure-write1{
+
+width: 100%;
+
+float: left;
+
+box-shadow: 2px 2px 4px #00000094;
+
+margin: 20px 0px;
+}
+.figure-write1 a{
+
+width: 20%;
+
+float: left;
+
+text-align: center;
+}
+.figure-write1 img{
+    margin-top: 25px;
+}
+.figure-write1 h2{
+
+width: 80%;
+
+float: left;
+
+font-size: 20px;
+}
+.figure-write2{
+
+width: 100%;
+
+float: left;
+
+padding: 15px 0px;
+
+background: aqua;
+
+box-shadow: 2px 2px 4px #00000094;
+
+margin: 0px 0px 0px 0px;
+}
+.figure-write2 a{
+    
+width: 20%;
+    
+float: left;
+    
+text-align: center;
+}
+.figure-write2 img{
+
+margin-top: 20px;
+}
+.figure-write2 h2{
+
+width: 80%;
+
+float: left;
+
+font-size: 20px;
+}
+.figure-write2 p{
+    
+width: 80%;
+    
+float: left;
+    
+margin: 0px 0px 0px 120px;
+}
+
+/* kbd */
+
+#section{
+
+width: 100%;
+
+float: left;
+
+background: whitesmoke;
+}
+.kbd-writing-part{
+
+width: 50%;
+
+float: left;
+
+text-align: end;
+
+margin: 70px 0px 0px -80px;
+}
+.kbd-writing-part h3{
+
+font-size: 20px;
+}
+.kbd-writing-part p{
+
+margin: 120px 0px 0px 200px;
+
+font-size: 10px;
+
+font-style: normal;
+
+line-height: 17px;
+
+color: #197474;
+}
+.img-part{
+
+width: 100%;
+
+float: left;
+}
+.img-part a{
+
+width: 80%;
+
+float: left;
+
+margin: 15px 30px;
+}
+.img-part a img{
+
+border: 0px solid;
+
+border-radius: 100px;
+
+background: aqua;
+}
+.img-part h1{
+
+width: 20%;
+
+float: left;
+
+font-size: 14px;
+
+margin: 15px -87px;
+}
+.kbd-img-part{
+
+width: 50%;
+
+float: left;
+
+margin: 10px 0px -16px 80px;
+}
+.kbd-img-part img{
+
+width: 260px;
+
+height: 300px;
+
+margin-top: 60px;
+}
+
+/* legend */
+
+#legend{
+    
+width: 100%;
+    
+float: left;
+    
+text-align: center;
+    
+background: url(../img/back.png) no-repeat;
+    
+background-size: cover;
+}
+.legend-video{
+
+margin-top: 130px;
+
+margin-bottom: 30px;
+}
+.legend-video img{
+
+}
+.legend-video h3{
+
+color: white;
+}
+.legend-write{
+
+margin: 0px 300px 150px 300px;
+
+color: white;
+}
+.legend-write p{
+
+}
+
+/* section1 */
+
+#join{
+
+width: 100%;
+
+float: left;
+
+text-align: center;
+
+margin: 99px 0px;
+}
+.join-write-part{
+
+margin: 50px 0px;
+}
+.join-write-part h2{
+
+}
+.join-write-part p{
+
+padding-bottom: 25px;
+}
+.join-write-part a{
+}
+.join-write-part a button{
+
+padding: 8px 30px;
+
+border: 0px solid;
+
+background: aqua;
+
+border-radius: 3px;
+}
+
+/* ol */
+
+#ol{
+
+width: 100%;
+
+float: left;
+
+background: url(../img/back.png) no-repeat;
+
+background-size: cover;
+}
+.ol-write{
+
+margin: 95px 0px;
+}
+.ol-write p{
+
+color: aqua;
+
+margin: 0px 295px;
+
+text-align: center;
+}
+
+/* p */
+
+#p{
+
+width: 100%;
+
+float: left;
+
+background: whitesmoke;
+}
+.p-img-part{
+
+width: 50%;
+
+float: left;
+
+text-align: end;
+
+margin: 30px 0px;
+}
+.p-img-part img{
+    margin: 0px 70px 0px 0px;
+    height: 350px;
+    width: 250px;
+}
+.p-write-part{
+
+width: 50%;
+
+float: left;
+
+margin: 30px 0px;
+}
+.p-write-part h6{
+
+font-size: 24px;
+}
+.p-write-part p{
+
+    color: #3e8585;
+
+margin: -30px 240px 30px 0px;
+
+line-height: 23px;
+}
+.p-write-part img{
+    padding-right: 20px;
+}
+.p-btn-part{
+
+width: 100%;
+
+float: left;
+
+text-align: center;
+
+position: relative;
+
+top: 20px;
+}
+.p-btn-part a{
+
+}
+.p-btn-part a button{
+
+padding: 12px 30px;
+
+background: aqua;
+
+border: 0px solid;
+}
+
+/* pre */
+
+#pre{
+
+width: 100%;
+
+float: left;
+}
+.pre-write-part{
+
+width: 100%;
+
+float: left;
+
+margin: 30px -150px 30px 70px;
+}
+.pre-section{
+    width: 20%;
+    float: left;
+    margin: 0px -15px;
+}
+.pre-section h4{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.pre-section ul{
+
+width: 100%;
+
+float: left;
+
+margin: 20px 0px 0px 0px;
+}
+.pre-section ul li{
+
+display: block;
+
+padding: 3px 15px;
+}
+.pre-writting{
+
+width: 100%;
+
+float: left;
+
+text-align: center;
+}
+.pre-writting h3{
+
+}
+.pre-writting p{
+
+}
+.pre-writting button{
+
+padding: 10px 35px;
+
+background: aqua;
+
+border: 0px solid;
+
+border-radius: 2px;
+
+margin: 30px -300px 50px 300px;
+}
+
+/* footer */
+
+#footer{
+
+width: 100%;
+
+float: left;
+
+background: url(../img/back.png) no-repeat;
+
+background-size: cover;
+}
+.footer-write-part{
+
+width: 50%;
+
+float: left;
+
+text-align: center;
+}
+.footer-write-part h6{
+
+color: white;
+
+margin: 40px 50px 0px 0px;
+}
+.footer-img-part{
+
+width: 50%;
+
+float: left;
+
+text-align: center;
+
+margin: 25px 0px;
+}
+.footer-img-part a{
+
+}
+.footer-img-part a img{
+    
+padding-right: 25px;
+}
+
+/* Responsive media queries */
+
+/* Mobile-device */
+
+@media (min-width:0px) and (max-width:600px){
+
+    /* header */
+
+    .logo-part{
+        width: 20%;
+    
+    }
+    .logo-part img{
+        padding: 6px 0px;
+    }
+    .menu-part{
+        width: 50%;
+        display: inline-block;
+        
+    }
+    .menu-part nav ul{
+        padding: 0px 0px;
+    }
+    .menu-part nav ul li{
+
+    }
+    .button-part{
+        width: 30%;
+        margin: 0px 0px;
+       
+    }
+    .button-part a{
+        padding: 0px 0px;
+    }
+    .button-part a button{
+        margin: 10px 0px 0px 0px;
+        padding: 5px 5px 5px 5px;
+    }
+    .button-part img{
+    margin: 0px 0px -7px 8px;
+    }
+
+    /* main */
+
+    .hero{
+        width: 100%;
+    }
+    .hero-writting-part{
+        width: 50%;
+    }
+    .hero-writting-part h1{
+        font-size: 22px;
+        margin: 0px 0px 0px -180px;
+
+    }
+    .hero-writting-part p{
+        font-size: 15px;
+        margin: 15px 0px;
+        padding: 60px 0px 0px 0px;
+    }
+    .hero-btn-part{
+        width: 50%;
+        margin: 0px 0px;
+        padding: 0px 0px;
+    }
+    .hero-btn-part a{
+
+    }
+    .hero-btn-part a button{
+
+    }
+    .hero-btn-part1{
+        width: 50%;
+        margin: -39px 0px 0px 135px;
+        padding: 0px 0px;
+    }
+    .hero-btn-part1 a{
+
+    }
+    .hero-btn-part1 a button{
+        padding: 11px 4px;
+    }
+    .hero-img-part{
+        width: 50%;
+        margin: 0px -100px 0px 60px;
+    }
+    .hero-img-part img{
+        width: 75%;
+    }
+}
+
+/* tablet-device */
+
+@media (min-width:601px) and (max-width:768px){
+    .logo-part{
+        width: 20%;
+    }
+    .logo-part img{
+        padding: 8px 0px 0px 0px;
+    }
+    .menu-part{
+        width: 50%;
+        display: inline-block;
+    }
+    .menu-part nav ul{
+        padding: 2px 15px;
+    }
+    .menu-part nav ul li{
+
+    }
+    .button-part{
+        width: 30%;
+    }
+    .button-part a button{
+        margin: 10px 0px 0px 0px;
+        padding: 5px 5px 5px 5px;
+    }
+    .button-part img{
+        margin: 0px 0px -7px -75px;
+    }
+
+    /* main */
+
+    .hero{
+        width: 100%;
+    }
+    .hero-writting-part{
+        width: 50%;
+    }
+    .hero-writting-part h1{
+        margin: 0px 0px 20px -180px;
+    }
+    .hero-writting-part p{
+        font-size: 15px;
+        margin: 15px 20px;
+        padding: 60px 0px 0px 0px;
+    }
+    .hero-btn-part{
+        width: 50%;
+        margin: 0px 0px 0px 20px;
+        padding: 0px 0px;
+    }
+    .hero-btn-part a{
+
+    }
+    .hero-btn-part a button{
+        padding: 7px 0px;
+    }
+    .hero-btn-part1{
+        width: 50%;
+        margin: -28px 0px 0px 150px;
+        padding: 0px 0px;
+    }
+    .hero-btn-part1 a{
+
+    }
+    .hero-btn-part1 a button{
+        padding: 6px 4px;
+    }
+    .hero-img-part{
+        width: 50%;
+        margin: 0px -100px 0px 60px;
+    }
+    .hero-img-part img{
+        width: 70%;
+    }
+}
+
+/* landscape-tablet */
+
+@media (min-width:769px) and (max-width:900px){
+    .logo-part{
+        width: 20%;
+    }
+    .logo-part img{
+        padding: 8px 0px 0px 0px;
+    }
+    .menu-part{
+        width: 50%;
+        display: inline-block;
+    }
+    .menu-part nav ul{
+        padding: 2px 15px;
+    }
+    .menu-part nav ul li{
+
+    }
+    .button-part{
+        width: 30%;
+        margin: 2px 0px 0px -65px;
+    }
+    .button-part a button{
+        margin: 10px 0px 0px 0px;
+        padding: 5px 5px 5px 5px;
+    }
+    .button-part img{
+        margin: 0px 0px -7px -75px;
+    }
+
+    /* main */
+
+    .hero{
+        width: 100%;
+    }
+    .hero-writting-part{
+        width: 50%;
+    }
+    .hero-writting-part h1{
+        margin: 0px 0px 20px -180px;
+    }
+    .hero-writting-part p{
+        font-size: 15px;
+        margin: 15px 20px;
+        padding: 60px 0px 0px 0px;
+    }
+    .hero-btn-part{
+        width: 50%;
+        margin: 0px 0px 0px 20px;
+        padding: 0px 0px;
+    }
+    .hero-btn-part a{
+
+    }
+    .hero-btn-part a button{
+        padding: 7px 0px;
+    }
+    .hero-btn-part1{
+        width: 50%;
+        margin: -28px 0px 0px 150px;
+        padding: 0px 0px;
+    }
+    .hero-btn-part1 a{
+
+    }
+    .hero-btn-part1 a button{
+        padding: 6px 4px;
+    }
+    .hero-img-part{
+        width: 50%;
+        margin: 0px -100px 0px 60px;
+    }
+    .hero-img-part img{
+        width: 70%;
+    }
+}
+
+/* laptop */
+
+@media (min-width:901px) and (max-width:1200px){
+    .logo-part{
+        width: 20%;
+    }
+    .logo-part img{
+        padding: 8px 0px 0px 0px;
+    }
+    .menu-part{
+        width: 50%;
+        display: inline-block;
+    }
+    .menu-part nav ul{
+        padding: 2px 15px;
+    }
+    .menu-part nav ul li{
+
+    }
+    .button-part{
+        width: 30%;
+        margin: 2px 0px 0px -95px;
+    }
+    .button-part a button{
+        margin: 10px 0px 0px 0px;
+        padding: 5px 5px 5px 5px;
+    }
+    .button-part img{
+        margin: 0px 0px -7px -75px;
+    }
+
+    /* main */
+
+    .hero{
+        width: 100%;
+    }
+    .hero-writting-part{
+        width: 50%;
+    }
+    .hero-writting-part h1{
+        margin: 0px 0px 20px -180px;
+    }
+    .hero-writting-part p{
+        font-size: 15px;
+        margin: 15px 20px;
+        padding: 60px 0px 0px 0px;
+    }
+    .hero-btn-part{
+        width: 50%;
+        margin: 0px 0px 0px 20px;
+        padding: 0px 0px;
+    }
+    .hero-btn-part a{
+
+    }
+    .hero-btn-part a button{
+        padding: 7px 0px;
+    }
+    .hero-btn-part1{
+        width: 50%;
+        margin: -28px 0px 0px 150px;
+        padding: 0px 0px;
+    }
+    .hero-btn-part1 a{
+
+    }
+    .hero-btn-part1 a button{
+        padding: 6px 4px;
+    }
+    .hero-img-part{
+        width: 50%;
+        margin: 0px -100px 0px 60px;
+    }
+    .hero-img-part img{
+        width: 70%;
+    }
+}
